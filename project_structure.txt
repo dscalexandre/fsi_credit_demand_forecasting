@@ -1,0 +1,36 @@
+hiring_demand_forecasting/
+├── data/
+│   ├── clean_data.csv              # Original, unprocessed data
+│   └── contratacoes_data.csv       # Cleaned and transformed data
+│   └── test_lstm_predictions.csv 
+├── images/                    
+│   └── fintech.jpg                 # Image for README
+├── models/
+│   ├── lstm_model.keras
+│   └── scaler.gz
+├── notebooks/
+│   ├── I_data_analysis.ipynb
+│   ├── II_statistical_models.ipynb
+│   ├── III_deep_learning_models.ipynb
+│   ├── IV_deploy_models.ipynb      
+│   └── utils.py               # Imports and helper functions
+├── .gitignore
+├── app_streamlit.py           # Web interface
+├── LICENSE
+├── project_structure.txt
+├── README.md
+└── requirements.txt           # Project dependencies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
