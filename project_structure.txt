@@ -1,4 +1,4 @@
-hiring_demand_forecasting/
+fsi_credit_demand_forecasting/
 ├── data/
 │   ├── clean_data.csv              # Original, unprocessed data
 │   └── contratacoes_data.csv       # Cleaned and transformed data
