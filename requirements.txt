@@ -17,7 +17,27 @@ pymannkendall==1.4.3
 # Machine Learning & Deep Learning
 scikit-learn==1.5.1
 tensorflow==2.18.0
-torch==2.6.0
+# PyTorch (usar CPU build no Windows)
+pytorch-cpu==2.8.0
 
 # Jupyter Notebook
 ipykernel==6.29.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
