@@ -6,7 +6,7 @@ Aviso importante: O contexto apresentado neste projeto é totalmente fictício. 
 
 
 
-# 📈 Hiring Demand Forecasting 
+# 📈 Credit Demand Forecasting 
 
 ## 🏢 Sobre a Empresa
 
