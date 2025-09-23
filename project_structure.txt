@@ -1,8 +1,8 @@
 fsi_credit_demand_forecasting/
 ├── data/
-│   ├── clean_data.csv              # Original, unprocessed data
-│   └── contratacoes_data.csv       # Cleaned and transformed data
-│   └── test_lstm_predictions.csv 
+│   ├── clean_data.csv               # Cleaned and transformed data
+│   └── contratacoes_data.csv        # Raw data
+│   └── test_lstm_predictions.csv    
 ├── images/                    
 │   └── fintech.jpg                 # Image for README
 ├── models/
