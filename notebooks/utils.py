@@ -18,7 +18,9 @@ from sklearn.metrics import median_absolute_error, mean_squared_error
 import statsmodels.api as sm
 from statsmodels.tsa.statespace.sarimax import SARIMAX  
 import torch
-import torch.nn as nn 
+import torch.nn as nn
+import torchvision
+import torchaudio
 import tensorflow as tf
 from tensorflow import keras
 from typing import Tuple
