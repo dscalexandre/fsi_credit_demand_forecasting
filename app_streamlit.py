@@ -32,7 +32,7 @@ def load_model_and_scaler():
 def load_data():
     """Carrega os dados históricos."""
     try:
-        df = pd.read_csv('data/clean_data.csv')
+        df = pd.read_csv('data/contratacoes_clean_data.csv')
         df['data'] = pd.to_datetime(df['data'], format='%Y-%m-%d')
         df.set_index('data', inplace=True)
         df = df.asfreq('D')  
