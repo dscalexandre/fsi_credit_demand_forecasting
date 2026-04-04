@@ -1,0 +1,11 @@
+from fastapi import FastAPI
+import uvicorn
+
+app = FastAPI(title="FSI Credit API")
+
+@app.get("/")
+def health():
+    return {"status": "ok"}
+
+def run():
+    uvicorn.run("fsi_credit.api.main:app", host="0.0.0.0", port=8000, reload=True)
